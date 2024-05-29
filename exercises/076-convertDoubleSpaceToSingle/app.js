@@ -1,5 +1,12 @@
 function convertDoubleSpaceToSingle(str) {
     // your code here
+    let newArr = str.split('  ').join(' ')
+     
+     return newArr
+  
+ 
+  
+
     
 }
 
