@@ -1,5 +1,11 @@
 function addToBackOfNew(arr, element) {
     // your code here
+   /* let newArr = [...arr, element]
+    return newArr;*/
+    let newArr =[];
+    newArr = arr.push(element)
+    return newArr;
+
     
 }
 
