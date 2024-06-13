@@ -1,6 +1,14 @@
 function getSumOfAllElementsAtProperty(obj, key) {
-    // your code here
-    
+    if(!obj[key] || obj[key].length == 0 || !Array.isArray(obj[key])){
+        return 0;
+    }
+/*return obj[key].reduce((anterior, actual) => anterior + actual, 0);*/
+
+  let suma=0;
+  for(let e of obj[key]){
+    suma+=e
+  }
+  return suma
 }
 
 let obj = {

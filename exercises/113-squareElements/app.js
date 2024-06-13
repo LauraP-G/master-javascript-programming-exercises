@@ -1,5 +1,6 @@
 function squareElements(arr) {
   // your code here
+  return arr.map((element) => element * element)
   
 }
 
